@@ -4,6 +4,7 @@ ScriptHost:LoadScript("scripts/settings.lua")
 Tracker:AddItems("items/common.json")
 Tracker:AddItems("items/djinn.json")
 Tracker:AddItems("items/progression.json")
+Tracker:AddItems("items/chest_tablet.json")
 
 ScriptHost:LoadScript("scripts/logic_common.lua")
 
@@ -14,6 +15,7 @@ Tracker:AddLayouts("layouts/psynergy.json")
 Tracker:AddLayouts("layouts/summons_and_djinn.json")
 Tracker:AddLayouts("layouts/tracker.json")
 Tracker:AddLayouts("layouts/standard_broadcast.json")
+Tracker:AddLayouts("detailed/layouts/layouts_capture.json")
 
 if _VERSION == "Lua 5.3" then
   ScriptHost:LoadScript("scripts/autotracking.lua")

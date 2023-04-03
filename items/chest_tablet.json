@@ -1,0 +1,92 @@
+[
+  {
+    "name": "tablet_012",
+    "type": "toggle",
+    "img": "images/chests/tablet.gif",
+    "codes": "012"
+  },
+  {
+    "name": "tablet_8D4",
+    "type": "toggle",
+    "img": "images/chests/tablet.gif",
+    "codes": "8D4"
+  },
+  {
+    "name": "chest_E71",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "E71"
+  },
+  {
+    "name": "chest_F32",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F32"
+  },
+  {
+    "name": "chest_F33",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F33"
+  },
+  {
+    "name": "chest_F34",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F34"
+  },
+  {
+    "name": "chest_F35",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F35"
+  },
+  {
+    "name": "chest_F36",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F36"
+  },
+  {
+    "name": "chest_F37",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F37"
+  },
+  {
+    "name": "chest_F38",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F38"
+  },
+  {
+    "name": "chest_F39",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F39"
+  },
+  {
+    "name": "chest_F3A",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F3A"
+  },
+  {
+    "name": "chest_F3B",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F3B"
+  },
+  {
+    "name": "chest_F3C",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F3C"
+  },
+  {
+    "name": "chest_F3D",
+    "type": "toggle",
+    "img": "images/chests/chest.gif",
+    "codes": "F3D"
+  },
+]

@@ -1,0 +1,696 @@
+{
+	"tracker_default": {
+		"type": "container",
+		"background": "#877373",
+		"width": 990,
+		"height": 700,
+		"content": {
+			"type": "dock",
+			"dropshadow": true,
+			"content": [{
+					"type": "dock",
+					"dock": "bottom",
+					"height": 200,
+					"content": [{
+						"type": "group",
+						"header": "Pinned Locations",
+						"content": {
+							"type": "recentpins",
+							"style": "wrap",
+							"h_alignment": "stretch",
+							"v_alignment": "stretch",
+							"orientation": "horizontal",
+							"compact": true
+						}
+					}]
+				},
+				{
+					"type": "dock",
+					"dock": "left",
+					"v_alignment": "stretch",
+					"content": [{
+							"type": "group",
+							"header": "Items",
+							"dock": "top",
+							"header_content": {
+								"type": "button_popup",
+								"style": "settings",
+								"popup_background": "#55212121",
+								"layout": "settings_popup"
+							},
+							"content": {
+								"type": "layout",
+								"key": "tracker_items"
+							}
+						},
+						{
+							"type": "group",
+							"header": "Psynergy",
+							"dock": "top",
+							"content": {
+								"type": "layout",
+								"key": "tracker_psynergy"
+							}
+						},
+						{
+							"type": "group",
+							"header": "Summons & Djinn",
+							"dock": "top",
+							"content": {
+								"type": "layout",
+								"key": "tracker_summons_and_djinn"
+							}
+						}
+					]
+				},
+				{
+					"type": "tabbed",
+					"tabs": [{
+							"title": "Weyard",
+							"content": {
+								"type": "map",
+								"maps": ["weyard"]
+							}
+						},
+						{
+							"title": "Indra",
+							"content": {
+								"type": "tabbed",
+								"tabs": [{
+									"title": "Daila",
+									"content": {
+										"type": "map",
+										"maps": ["daila1"]
+									}},
+                                                                        {
+									"title": "Kandorean Temple",
+									"content": {			"type": "array",
+"orientation": "vertical",
+"content": [
+{
+										"type": "map",
+										"maps": ["kandorean3", "kandorean4", "kandorean5", "kandorean6", "kandorean7"]
+},
+{
+										"type": "map",
+										"maps": ["kandorean2", "kandorean1"]
+}
+]
+									}},
+                                                                        {
+									"title": "Shrine of the Sea God",
+									"content": {
+"type": "array",
+"orientation": "vertical",
+"content": [
+{
+										"type": "map",
+										"maps": ["seagod4", "seagod5", "seagod6", "seagod7"]
+},
+{
+										"type": "map",
+										"maps": ["seagod3", "seagod2", "seagod1"]
+}
+]
+									}},
+                                                                        {
+									"title": "Dehkan Plateau",
+									"content": {
+										"type": "map",
+										"maps": ["dehkan1", "dehkan2", "dehkan3", "dehkan4", "dehkan5"]
+									}},
+                                                                        {
+									"title": "Lemurian Ship",
+									"content": {
+										"type": "map",
+										"maps": ["lemurianship1", "lemurianship2", "lemurianship3"]
+									}},
+                                                                        {
+									"title": "Madra",
+									"content": {
+										"type": "map",
+										"maps": ["madra1"]
+									}},
+                                                                        {
+									"title": "Madra Catacombs",
+									"content": {
+										"type": "map",
+										"maps": ["madracat1", "madracat2", "madracat3", "madracat4"]
+									}
+								}]
+							}
+						},
+						{
+							"title": "Osenia",
+							"content": {
+								"type": "tabbed",
+								"tabs": [{
+									"title": "Osenia Cliffs",
+									"content": {
+										"type": "map",
+										"maps": ["oseniacliffs1"]
+									}},
+                                                                        {
+									"title": "Yampi Desert",
+									"content": 
+{
+"type": "array",
+"content": [
+{
+										"type": "map",
+										"maps": ["yampiD1", "yampiD2", "yampiD3", "yampiD4", "yampiD5"]
+									},
+{
+										"type": "map",
+										"maps": ["yampiD6", "yampiD7"]
+									}
+]
+}
+},
+                                                                        {
+									"title": "Yampi Desert Cave",
+									"content": {
+										"type": "map",
+										"maps": ["yampiDCave1", "yampiDCave2"]
+									}},
+                                                                        {
+									"title": "Alhafra",
+									"content": {
+										"type": "map",
+										"maps": ["alhafra3", "alhafra1", "alhafra2"]
+									}},
+                                                                        {
+									"title": "Airs Rock",
+									"content": {
+                                                                                "type": "tabbed",
+                                                                                "tabs": [{
+                                                                                        "title": "Exterior",
+                                                                                        "content": {
+										                "type": "array",
+										                "orientation": "horizontal",
+										                "content": [
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["airsrock5", "airsrock3", "airsrock2", "airsrock1"]
+                                                                                                        },
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["airsrock4"]
+                                                                                                        }
+										                ]
+                                                                                        }},
+                                                                                        {
+                                                                                        "title": "Interior",
+                                                                                        "content": {
+										                "type": "array",
+										                "orientation": "horizontal",
+										                "content": [
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["airsrockinterior7", "airsrockinterior8", "airsrockinterior9"]
+                                                                                                        },
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["airsrockinterior1", "airsrockinterior10", "airsrockinterior6", "airsrockinterior11"]
+                                                                                                        },
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["airsrockinterior2", "airsrockinterior3", "airsrockinterior4", "airsrockinterior5"]
+                                                                                                        }
+										                ]
+                                                                                        }}
+                                                                                ]
+									}},
+                                                                        {
+									"title": "Garoh",
+									"content": {
+"type": "array",
+"orientation": "horizontal",
+"content": [
+										{"type": "map",
+										"maps": ["garoh5", "garoh4", "garoh3"]},
+										{"type": "map",
+										"maps": ["garoh2", "garoh1"]}
+]
+									}},
+                                                                        {
+									"title": "Mikasalla",
+									"content": {
+										"type": "map",
+										"maps": ["mikasalla1"]
+									}},
+                                                                        {
+									"title": "Yallam",
+									"content": {
+										"type": "map",
+										"maps": ["yallam1"]
+									}},
+                                                                        {
+									"title": "Taopo Swamp",
+									"content": {
+"type": "array",
+"orientation": "vertical",
+"content": [
+										{"type": "map",
+										"maps": ["taopo4", "taopo5", "taopo6"]},
+										{"type": "map",
+										"maps": ["taopo1", "taopo2", "taopo3"]}
+]
+									}
+								}]
+							}
+						},
+						{
+							"title": "Angara",
+							"content": {
+								"type": "tabbed",
+								"tabs": [{
+									"title": "Champa",
+									"content": {
+										"type": "map",
+										"maps": ["champa1", "champa5"]
+									}},
+                                                                        {
+									"title": "Ankohl Ruins",
+									"content": {
+										"type": "map",
+										"maps": ["ankohl1", "ankohl2", "ankohl3", "ankohl4", "ankohl5", "ankohl6"]
+									}},
+                                                                        {
+									"title": "Loho",
+									"content": {
+										"type": "map",
+										"maps": ["loho1"]
+									}
+								}]
+							}
+						},
+						{
+							"title": "Tundaria",
+							"content": {
+								"type": "tabbed",
+								"tabs": [{
+									"title": "Tundaria Tower",
+									"content": {
+										"type": "map",
+										"maps": ["tundaria1", "tundaria2", "tundaria3", "tundaria4", "tundaria5", "tundaria6"]
+									}
+								}]
+							}
+						},
+						{
+							"title": "Atteka",
+							"content": {
+								"type": "tabbed",
+								"tabs": [{
+									"title": "Atteka Inlet",
+									"content": {
+										"type": "map",
+										"maps": ["attekainlet2", "attekainlet1"]
+									}},
+                                                                        {
+									"title": "Contigo",
+									"content": {
+										"type": "map",
+										"maps": ["contigo1", "anemos1"]
+									}},
+                                                                        {
+									"title": "Anemos Inner Sanctum",
+									"content": {
+										"type": "map",
+										"maps": ["anemos1", "anemos2", "anemos3", "anemos4", "anemos5"]
+									}},
+                                                                        {
+									"title": "Jupiter Lighthouse",
+									"content": {
+"type": "array",
+"orientation": "horizontal",
+"content": [
+{
+										"type": "map",
+										"maps": ["jupiterLH14", "jupiterLH13", "jupiterLH7"]
+},
+{
+										"type": "map",
+										"maps": ["jupiterLH8", "jupiterLH6", "jupiterLH5", "jupiterLH4", "jupiterLH3", "jupiterLH9", "jupiterLH2", "jupiterLH1"]
+},
+{
+										"type": "map",
+										"maps": ["jupiterLH12", "jupiterLH11", "jupiterLH10"]
+}
+]
+									}
+								}]
+							}
+						},
+						{
+							"title": "Hesperia",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+                                                                    {
+									"title": "Hesperia Settlement",
+									"content": {
+										"type": "map",
+										"maps": ["hesperiasett1"]
+									}
+                                                                    },
+                                                                    {
+									"title": "Shaman Village Cave",
+									"content": {
+										"type": "map",
+										"maps": ["shamancave1"]
+									}
+                                                                    },
+                                                                    {
+									"title": "Shaman Village",
+									"content": {
+										"type": "map",
+										"maps": ["shamanvillage1", "shamanvillage2", "shamanvillage3"]
+									}
+                                                                    }
+								]
+							}
+						},
+						{
+							"title": "Gondowan",
+							"content": {
+                                                                "type": "tabbed",
+                                                                "tabs": [
+                                                                    {
+                                                                        "title": "Gondowan Cliffs",
+                                                                        "content": {
+                                                                            "type": "map",
+                                                                            "maps": ["gondowancliffs1"]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "title": "Naribwe",
+                                                                        "content": {
+                                                                            "type": "map",
+                                                                            "maps": ["naribwe1"]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "title": "Kibombo Mountains",
+                                                                        "content": {
+"type": "array",
+"orientation": "horizontal",
+"content": [
+{
+                                                                            "type": "map",
+                                                                            "maps": ["kibombomountains2", "kibombomountains1"]
+}
+]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "title": "Kibombo",
+                                                                        "content": {
+"type": "array",
+"orientation": "horizontal",
+"content": [
+{
+                                                                            "type": "map",
+                                                                            "maps": ["kibombo2", "kibombo1"]
+}
+]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "title": "Gabomba Statue",
+                                                                        "content": {
+                                                                            "type": "map",
+"orientation": "vertical",
+                                                                            "maps": ["gabombaS6", "gabombaS5", "gabombaS4", "gabombaS3", "gabombaS2", "gabombaS1"]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "title": "Gabomba Catacombs",
+                                                                        "content": {
+                                                                            "type": "map",
+                                                                            "maps": ["gabombacat1", "gabombacat2", "gabombacat3", "gabombacat4"]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "title": "Gondowan Settlement",
+                                                                        "content": {
+                                                                            "type": "map",
+                                                                            "maps": ["gondowansett1"]
+                                                                        }
+                                                                    },
+                                                                    {
+                                                                        "title": "Magma Rock",
+                                                                        "content": {
+"type": "tabbed",
+"tabs": [
+{
+"title": "Exterior",
+"content": {
+"type": "array",
+"orientation": "horizontal",
+"content": [
+{
+                                                                            "type": "map",
+                                                                            "maps": ["magmarock4", "magmarock3", "magmarock2", "magmarock1"]
+}]
+}
+},
+{
+"title": "Interior",
+"content": {
+"type": "array",
+"orientation": "horizontal",
+"content": [
+{
+                                                                            "type": "map",
+                                                                            "maps": ["magmarockinterior5", "magmarockinterior4"]
+},
+{
+                                                                            "type": "map",
+                                                                            "maps": ["magmarockinterior3", "magmarockinterior2", "magmarockinterior1"]
+}]
+}
+},
+]
+                                                                        }
+                                                                    }
+                                                                ]
+							}
+						},
+						{
+							"title": "Northern Reaches",
+							"content": {
+								"type": "tabbed",
+								"tabs": [
+                                                                        {
+									"title": "Prox",
+									"content": {
+										"type": "map",
+										"maps": ["prox1", "prox2"]
+									}
+                                                                        },
+                                                                        {
+                                                                          "title": "Mars Lighthouse",
+                                                                          "content": {
+                                                                            "type": "tabbed",
+                                                                            "tabs": [
+                                                                              {
+                                                                                "title": "Lower",
+                                                                                "content": {
+                                                                                  "type": "array",
+                                                                                  "orientation": "horizontal",
+                                                                                  "content": [
+                                                                                    {
+                                                                                  "type": "map",
+                                                                                  "maps": ["marslower6", "marslower5", "marslower3"]
+                                                                                    },
+                                                                                    {
+                                                                                  "type": "map",
+                                                                                  "maps": ["marslower4", "marslower2", "marslower1"]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              },
+                                                                              {
+                                                                                "title": "Upper",
+                                                                                "content": {
+                                                                                  "type": "array",
+                                                                                  "orientation": "horizontal",
+                                                                                  "content": [
+                                                                                    {
+                                                                                      "type": "map",
+                                                                                      "maps": ["marsupper1", "marsupper2"]
+                                                                                    },
+                                                                                    {
+                                                                                      "type": "map",
+                                                                                      "maps": ["marsupper3", "marsupper4"]
+                                                                                    }
+                                                                                  ]
+                                                                                }
+                                                                              }
+                                                                            ]
+                                                                        }
+								}]
+							}
+						},
+						{
+							"title": "Isles",
+							"content": {
+								"type": "tabbed",
+								"tabs": [{
+									"title": "Treasure Isle",
+									"content": {
+										"type": "map",
+										"maps": ["treasureisland1", "treasureisland2"]
+									}},
+                                                                        {
+									"title": "Izumo",
+									"content": {
+										"type": "map",
+										"maps": ["izumo1"]
+									}},
+                                                                        {
+									"title": "Gaia Rock",
+									"content": {
+                                                                                "type": "tabbed",
+                                                                                "tabs": [{
+                                                                                        "title": "Exterior",
+                                                                                        "content": {
+										                "type": "array",
+"orientation": "horizontal",
+"content": [
+{"type": "map",
+"maps": ["gaiarock4", "gaiarock3"]},
+{"type": "map",
+"maps": ["gaiarock5", "gaiarock2", "gaiarock1"]}
+]
+									}},
+{
+                                                                                        "title": "Interior",
+                                                                                        "content": {
+										                "type": "array",
+										                "orientation": "horizontal",
+										                "content": [
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["gaiarockinterior4", "gaiarockinterior1"]
+                                                                                                        },
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["gaiarockinterior3", "gaiarockinterior2"]
+                                                                                                        }
+										                ]
+									}}]}},
+                                                                        {
+									"title": "Apojii Islands",
+									"content": {
+										"type": "map",
+										"maps": ["apojii1", "apojii2"]
+									}},
+                                                                        {
+									"title": "Aqua Rock",
+									"content": {
+                                                                                "type": "tabbed",
+                                                                                "tabs": [{
+                                                                                        "title": "Exterior",
+                                                                                        "content": {
+										                "type": "array",
+										                "orientation": "horizontal",
+										                "content": [
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["aquarock2", "aquarock1"]
+                                                                                                        },
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["aquarock3"]
+                                                                                                        }
+										                ]
+                                                                                        }},
+                                                                                        {
+                                                                                        "title": "Interior",
+                                                                                        "content": {
+										                "type": "array",
+										                "orientation": "horizontal",
+										                "content": [
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["aquarockinterior1", "aquarockinterior3"]
+                                                                                                        },
+                                                                                                        {
+										                                "type": "map",
+										                                "maps": ["aquarockinterior2", "aquarockinterior4"]
+                                                                                                        }
+										                ]
+                                                                                        }}
+                                                                                ]
+									}},
+                                                                        {
+									"title": "Lemuria",
+									"content": {
+"type": "array",
+"orientation": "horizontal",
+"content":
+[
+{
+										"type": "map",
+										"maps": ["lemuria5", "lemuria2", "lemuria1"]
+},
+{
+										"type": "map",
+										"maps": ["lemuria4", "lemuria3"]
+}
+]
+									}},
+                                                                        {
+									"title": "Islet Cave",
+									"content": {
+										"type": "map",
+										"maps": ["isletcave1", "isletcave4"]
+									}},
+                                                                        {
+									"title": "SE Angara Islet",
+									"content": {
+										"type": "map",
+										"maps": ["SEangara1"]
+									}},
+                                                                        {
+									"title": "N Osenia Islet",
+									"content": {
+										"type": "map",
+										"maps": ["Nosenia1"]
+									}},
+                                                                        {
+									"title": "W Indra Islet",
+									"content": {
+										"type": "map",
+										"maps": ["Windra1"]
+									}},
+                                                                        {
+									"title": "E Tundaria Islet",
+									"content": {
+										"type": "map",
+										"maps": ["Etundaria1"]
+									}},
+                                                                        {
+									"title": "SW Atteka Islet",
+									"content": {
+										"type": "map",
+										"maps": ["SWatteka1"]
+									}},
+                                                                        {
+									"title": "Kalt Island",
+									"content": {
+										"type": "map",
+										"maps": ["kalt1"]
+									}
+								}]
+							}
+						}
+					]
+				}
+			]
+		}
+	}
+}

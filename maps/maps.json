@@ -1,7 +1,1155 @@
 [
+  // Overworld
   {
     "name": "weyard",
     "img": "images/weyard.jpg",
+    "location_border_thickness": 2,
     "location_size": 65
+  },
+
+  // Indra
+  {
+    "name": "daila1",
+    "img": "images/maps/daila1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kandorean1",
+    "img": "images/maps/kandorean1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kandorean2",
+    "img": "images/maps/kandorean2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kandorean3",
+    "img": "images/maps/kandorean3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kandorean4",
+    "img": "images/maps/kandorean4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kandorean5",
+    "img": "images/maps/kandorean5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kandorean6",
+    "img": "images/maps/kandorean6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kandorean7",
+    "img": "images/maps/kandorean7.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "seagod1",
+    "img": "images/maps/seagod1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "seagod2",
+    "img": "images/maps/seagod2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "seagod3",
+    "img": "images/maps/seagod3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "seagod4",
+    "img": "images/maps/seagod4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "seagod5",
+    "img": "images/maps/seagod5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "seagod6",
+    "img": "images/maps/seagod6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "seagod7",
+    "img": "images/maps/seagod7.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "dehkan1",
+    "img": "images/maps/dehkan1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "dehkan2",
+    "img": "images/maps/dehkan2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "dehkan3",
+    "img": "images/maps/dehkan3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "dehkan4",
+    "img": "images/maps/dehkan4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "dehkan5",
+    "img": "images/maps/dehkan5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "lemurianship1",
+    "img": "images/maps/lemurianship1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "lemurianship2",
+    "img": "images/maps/lemurianship2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "lemurianship3",
+    "img": "images/maps/lemurianship3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "madra1",
+    "img": "images/maps/madra1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "madracat1",
+    "img": "images/maps/madracat1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "madracat2",
+    "img": "images/maps/madracat2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "madracat3",
+    "img": "images/maps/madracat3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "madracat4",
+    "img": "images/maps/madracat4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+
+  // Osenia
+  {
+    "name": "oseniacliffs1",
+    "img": "images/maps/oseniacliffs1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yampiD1",
+    "img": "images/maps/yampiD1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yampiD2",
+    "img": "images/maps/yampiD2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yampiD3",
+    "img": "images/maps/yampiD3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yampiD4",
+    "img": "images/maps/yampiD4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yampiD5",
+    "img": "images/maps/yampiD5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yampiD6",
+    "img": "images/maps/yampiD6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yampiD7",
+    "img": "images/maps/yampiD7.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yampiDCave1",
+    "img": "images/maps/yampiDCave1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yampiDCave2",
+    "img": "images/maps/yampiDCave2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "alhafra1",
+    "img": "images/maps/alhafra1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "alhafra2",
+    "img": "images/maps/alhafra2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "alhafra3",
+    "img": "images/maps/alhafra3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrock1",
+    "img": "images/maps/airsrock1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrock2",
+    "img": "images/maps/airsrock2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrock3",
+    "img": "images/maps/airsrock3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrock4",
+    "img": "images/maps/airsrock4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrock5",
+    "img": "images/maps/airsrock5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior1",
+    "img": "images/maps/airsrockinterior1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior2",
+    "img": "images/maps/airsrockinterior2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior3",
+    "img": "images/maps/airsrockinterior3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior4",
+    "img": "images/maps/airsrockinterior4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior5",
+    "img": "images/maps/airsrockinterior5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior6",
+    "img": "images/maps/airsrockinterior6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior7",
+    "img": "images/maps/airsrockinterior7.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior8",
+    "img": "images/maps/airsrockinterior8.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior9",
+    "img": "images/maps/airsrockinterior9.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior10",
+    "img": "images/maps/airsrockinterior10.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "airsrockinterior11",
+    "img": "images/maps/airsrockinterior11.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "garoh1",
+    "img": "images/maps/garoh1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "garoh2",
+    "img": "images/maps/garoh2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "garoh3",
+    "img": "images/maps/garoh3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "garoh4",
+    "img": "images/maps/garoh4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "garoh5",
+    "img": "images/maps/garoh5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "mikasalla1",
+    "img": "images/maps/mikasalla1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yallam1",
+    "img": "images/maps/yallam1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "yallam2",
+    "img": "images/maps/yallam2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "taopo1",
+    "img": "images/maps/taopo1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "taopo2",
+    "img": "images/maps/taopo2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "taopo3",
+    "img": "images/maps/taopo3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "taopo4",
+    "img": "images/maps/taopo4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "taopo5",
+    "img": "images/maps/taopo5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "taopo6",
+    "img": "images/maps/taopo6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+
+  // Angara
+  {
+    "name": "champa1",
+    "img": "images/maps/champa1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "champa2",
+    "img": "images/maps/champa2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "champa3",
+    "img": "images/maps/champa3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "champa4",
+    "img": "images/maps/champa4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "champa5",
+    "img": "images/maps/champa5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "ankohl1",
+    "img": "images/maps/ankohl1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "ankohl2",
+    "img": "images/maps/ankohl2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "ankohl3",
+    "img": "images/maps/ankohl3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "ankohl4",
+    "img": "images/maps/ankohl4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "ankohl5",
+    "img": "images/maps/ankohl5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "ankohl6",
+    "img": "images/maps/ankohl6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "loho1",
+    "img": "images/maps/loho1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+
+  // Tundaria
+  {
+    "name": "tundaria1",
+    "img": "images/maps/tundaria1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "tundaria2",
+    "img": "images/maps/tundaria2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "tundaria3",
+    "img": "images/maps/tundaria3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "tundaria4",
+    "img": "images/maps/tundaria4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "tundaria5",
+    "img": "images/maps/tundaria5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "tundaria6",
+    "img": "images/maps/tundaria6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+
+  // Atteka
+  {
+    "name": "attekainlet1",
+    "img": "images/maps/attekainlet1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "attekainlet2",
+    "img": "images/maps/attekainlet2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "contigo1",
+    "img": "images/maps/contigo1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "anemos1",
+    "img": "images/maps/anemos1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "anemos2",
+    "img": "images/maps/anemos2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "anemos3",
+    "img": "images/maps/anemos3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "anemos4",
+    "img": "images/maps/anemos4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "anemos5",
+    "img": "images/maps/anemos5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH1",
+    "img": "images/maps/jupiterLH1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH2",
+    "img": "images/maps/jupiterLH2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH3",
+    "img": "images/maps/jupiterLH3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH4",
+    "img": "images/maps/jupiterLH4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH5",
+    "img": "images/maps/jupiterLH5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH6",
+    "img": "images/maps/jupiterLH6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH7",
+    "img": "images/maps/jupiterLH7.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH8",
+    "img": "images/maps/jupiterLH8.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH9",
+    "img": "images/maps/jupiterLH9.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH10",
+    "img": "images/maps/jupiterLH10.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH11",
+    "img": "images/maps/jupiterLH11.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH12",
+    "img": "images/maps/jupiterLH12.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH13",
+    "img": "images/maps/jupiterLH13.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "jupiterLH14",
+    "img": "images/maps/jupiterLH14.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+
+  // Hesperia
+  {
+    "name": "hesperiasett1",
+    "img": "images/maps/hesperiasett1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "shamancave1",
+    "img": "images/maps/shamancave1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "shamanvillage1",
+    "img": "images/maps/shamanvillage1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "shamanvillage2",
+    "img": "images/maps/shamanvillage2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "shamanvillage3",
+    "img": "images/maps/shamanvillage3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+
+  // Gondowan
+  {
+    "name": "gondowancliffs1",
+    "img": "images/maps/gondowancliffs1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "naribwe1",
+    "img": "images/maps/naribwe1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kibombomountains1",
+    "img": "images/maps/kibombomountains1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kibombomountains2",
+    "img": "images/maps/kibombomountains2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kibombo1",
+    "img": "images/maps/kibombo1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kibombo2",
+    "img": "images/maps/kibombo2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombaS1",
+    "img": "images/maps/gabombaS1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombaS2",
+    "img": "images/maps/gabombaS2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombaS3",
+    "img": "images/maps/gabombaS3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombaS4",
+    "img": "images/maps/gabombaS4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombaS5",
+    "img": "images/maps/gabombaS5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombaS6",
+    "img": "images/maps/gabombaS6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombacat1",
+    "img": "images/maps/gabombacat1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombacat2",
+    "img": "images/maps/gabombacat2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombacat3",
+    "img": "images/maps/gabombacat3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gabombacat4",
+    "img": "images/maps/gabombacat4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gondowansett1",
+    "img": "images/maps/gondowansett1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "magmarock1",
+    "img": "images/maps/magmarock1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "magmarock2",
+    "img": "images/maps/magmarock2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "magmarock3",
+    "img": "images/maps/magmarock3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "magmarock4",
+    "img": "images/maps/magmarock4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "magmarockinterior1",
+    "img": "images/maps/magmarockinterior1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "magmarockinterior2",
+    "img": "images/maps/magmarockinterior2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "magmarockinterior3",
+    "img": "images/maps/magmarockinterior3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "magmarockinterior4",
+    "img": "images/maps/magmarockinterior4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "magmarockinterior5",
+    "img": "images/maps/magmarockinterior5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+
+  // Northern Reaches
+  {
+    "name": "prox1",
+    "img": "images/maps/prox1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "prox2",
+    "img": "images/maps/prox2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marslower1",
+    "img": "images/maps/marslower1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marslower2",
+    "img": "images/maps/marslower2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marslower3",
+    "img": "images/maps/marslower3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marslower4",
+    "img": "images/maps/marslower4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marslower5",
+    "img": "images/maps/marslower5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marslower6",
+    "img": "images/maps/marslower6.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marsupper1",
+    "img": "images/maps/marsupper1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marsupper2",
+    "img": "images/maps/marsupper2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marsupper3",
+    "img": "images/maps/marsupper3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "marsupper4",
+    "img": "images/maps/marsupper4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+
+  // Isles
+  {
+    "name": "treasureisland1",
+    "img": "images/maps/treasureisland1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "treasureisland2",
+    "img": "images/maps/treasureisland2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "izumo1",
+    "img": "images/maps/izumo1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gaiarock1",
+    "img": "images/maps/gaiarock1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gaiarock2",
+    "img": "images/maps/gaiarock2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gaiarock3",
+    "img": "images/maps/gaiarock3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gaiarock4",
+    "img": "images/maps/gaiarock4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gaiarock5",
+    "img": "images/maps/gaiarock5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gaiarockinterior1",
+    "img": "images/maps/gaiarockinterior1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gaiarockinterior2",
+    "img": "images/maps/gaiarockinterior2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gaiarockinterior3",
+    "img": "images/maps/gaiarockinterior3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "gaiarockinterior4",
+    "img": "images/maps/gaiarockinterior4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "apojii1",
+    "img": "images/maps/apojii1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "apojii2",
+    "img": "images/maps/apojii2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "aquarock1",
+    "img": "images/maps/aquarock1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "aquarock2",
+    "img": "images/maps/aquarock2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "aquarock3",
+    "img": "images/maps/aquarock3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "aquarockinterior1",
+    "img": "images/maps/aquarockinterior1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "aquarockinterior2",
+    "img": "images/maps/aquarockinterior2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "aquarockinterior3",
+    "img": "images/maps/aquarockinterior3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "aquarockinterior4",
+    "img": "images/maps/aquarockinterior4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "lemuria1",
+    "img": "images/maps/lemuria1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "lemuria2",
+    "img": "images/maps/lemuria2.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "lemuria3",
+    "img": "images/maps/lemuria3.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "lemuria4",
+    "img": "images/maps/lemuria4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "lemuria5",
+    "img": "images/maps/lemuria5.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "isletcave1",
+    "img": "images/maps/isletcave1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "isletcave4",
+    "img": "images/maps/isletcave4.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "SEangara1",
+    "img": "images/maps/SEangara1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "Nosenia1",
+    "img": "images/maps/Nosenia1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "Windra1",
+    "img": "images/maps/Windra1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "Etundaria1",
+    "img": "images/maps/Etundaria1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "SWatteka1",
+    "img": "images/maps/SWatteka1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
+  },
+  {
+    "name": "kalt1",
+    "img": "images/maps/kalt1.gif",
+    "location_border_thickness": 2,
+    "location_size": 40
   }
 ]

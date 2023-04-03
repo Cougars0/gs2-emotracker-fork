@@ -14,6 +14,9 @@
     },
     "key_items": {
       "display_name": "Key Items Shuffle"
+    },
+    "detailed": {
+      "display_name": "Chest/Tablet Shuffle Detailed"
     }
   }
 }
