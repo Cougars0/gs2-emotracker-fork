@@ -5239,8 +5239,8 @@
                         "y":311
                      }
                   ],
-                  "access_rules":[
-                     "scoop_gem"
+                  "access_rules": [
+                     "lifting_gem,scoop_gem"
                   ]
                },
                {

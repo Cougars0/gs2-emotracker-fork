@@ -2086,7 +2086,7 @@
             "name": "Hidden (Scoop)",
             "short_name": "+Scoop",
             "item_count": 1,
-            "access_rules": ["scoop_gem"],
+            "access_rules": [ "lifting_gem,scoop_gem" ],
             "clear_as_group": false
           },
           {
