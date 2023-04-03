@@ -2,15 +2,12 @@
 	"tracker_default": {
 		"type": "container",
 		"background": "#877373",
-		"width": 990,
-		"height": 700,
 		"content": {
 			"type": "dock",
 			"dropshadow": true,
 			"content": [{
 					"type": "dock",
 					"dock": "bottom",
-					"height": 200,
 					"content": [{
 						"type": "group",
 						"header": "Pinned Locations",
@@ -471,7 +468,7 @@
                                                                             "maps": ["magmarockinterior3", "magmarockinterior2", "magmarockinterior1"]
 }]
 }
-},
+}
 ]
                                                                         }
                                                                     }
